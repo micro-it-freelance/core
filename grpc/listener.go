@@ -1,10 +1,10 @@
-package grpc_core
+package core_grpc
 
 import (
 	"fmt"
 	"net"
 
-	"github.com/micro-it-freelance/core/config"
+	config "github.com/micro-it-freelance/core/config"
 )
 
 func NewGRPCListener() net.Listener {

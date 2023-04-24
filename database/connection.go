@@ -1,4 +1,4 @@
-package dbconn
+package core_dbconn
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	_ "github.com/jackc/pgx/v5/stdlib"
 
 	"github.com/jmoiron/sqlx"
-	"github.com/micro-it-freelance/core/config"
+	config "github.com/micro-it-freelance/core/config"
 )
 
 func NewDBConnection() *sqlx.DB {
