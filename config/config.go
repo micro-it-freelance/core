@@ -1,3 +1,5 @@
+// Created by Ivan Kistochkin
+
 package config
 
 import (
