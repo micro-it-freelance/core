@@ -3,6 +3,8 @@ package dbconn
 import (
 	"fmt"
 
+	_ "github.com/jackc/pgx/v5/stdlib"
+
 	"github.com/jmoiron/sqlx"
 	"github.com/micro-it-freelance/core/config"
 )
