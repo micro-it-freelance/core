@@ -1,4 +1,4 @@
-package core_dbconn
+package core_db
 
 import (
 	"fmt"
