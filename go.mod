@@ -3,6 +3,7 @@ module github.com/micro-it-freelance/core
 go 1.20
 
 require (
+	github.com/goccy/go-json v0.10.2
 	github.com/jackc/pgx/v5 v5.3.1
 	github.com/jmoiron/sqlx v1.3.5
 	github.com/spf13/viper v1.15.0
