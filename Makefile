@@ -11,4 +11,4 @@ test:
 	--env-file .env \
 	up $(service) \
 	--exit-code-from $(service) \
-	--buildclear
+	--build
