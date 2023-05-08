@@ -8,7 +8,5 @@ test:
 	docker compose \
 	-f $(PWD)/docker-compose.yml \
 	-f $(PWD)/docker-compose.test.yml \
-	--env-file .env \
-	up $(service) \
-	--exit-code-from $(service) \
-	--build
+	--env-file $(PWD)/.env \
+	up $(service) --exit-code-from $(service) --build
