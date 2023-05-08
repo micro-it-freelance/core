@@ -10,3 +10,5 @@ test:
 	-f $(PWD)/docker-compose.test.yml \
 	--env-file $(PWD)/.env \
 	up $(service) --exit-code-from $(service) --build
+
+	docker compose logs
