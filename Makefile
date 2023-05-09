@@ -6,4 +6,7 @@ down:
 
 test:
 	docker compose -f ./docker-compose.yml -f ./docker-compose.test.yml \
-	up --exit-code-from $(service) --build
+	up $(service) --build --exit-code-from $(service)
+
+logs:
+	@bash $(PWD)/submodules/core/logs.sh
